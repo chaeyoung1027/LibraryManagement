@@ -1,6 +1,4 @@
-from LibraryManual import Library
-
-class Delete(Library):
+class DeleteBook:
     def __init__(self, BookList):
         super().__init__(BookList)
         self.BookList = []

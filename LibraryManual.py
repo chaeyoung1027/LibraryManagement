@@ -1,10 +1,9 @@
 # 도서를 관리하는 콘솔 프로그램
 # 도서 정보는 도서명, 저자로 구성
-import Search
 from AllBook import AllBook
 from Search import search_book
-import AddBook
-import DelBook
+from AddBook import AddBook
+from DelBook import DeleteBook
 
 
 class Library:
@@ -16,7 +15,7 @@ class Library:
             self.show_manual()
             inp = input("원하시는 기능을 선택하세요: ")
             if inp == "1":
-                AllBook.AllBook()
+                AllBook.AllBook(BookList)
             elif inp == "2":
                 Search.search_book()
             elif inp == "3":
