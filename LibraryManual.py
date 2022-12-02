@@ -1,9 +1,10 @@
 # 도서를 관리하는 콘솔 프로그램
 # 도서 정보는 도서명, 저자로 구성
-from AllBook import AllBook
-from Search import search_book
 from AddBook import AddBook
+from AllBook import AllBook
 from DelBook import DeleteBook
+from Search import SearchBook
+
 
 class Library:
     def __init__(self):
@@ -16,7 +17,7 @@ class Library:
             if inp == "1":
                 AllBook(self.BookList)
             elif inp == "2":
-                search_book(self.BookList)
+                Search(self.BookList)
             elif inp == "3":
                 AddBook(self.BookList)
             elif inp == "4":
