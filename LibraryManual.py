@@ -5,7 +5,6 @@ from Search import search_book
 from AddBook import AddBook
 from DelBook import DeleteBook
 
-
 class Library:
     def __init__(self):
         self.BookList = []  # 책의 목록을 저장할 리스트
@@ -15,14 +14,13 @@ class Library:
             self.show_manual()
             inp = input("원하시는 기능을 선택하세요: ")
             if inp == "1":
-                AllBook.AllBook(BookList)
+                AllBook(self.BookList)
             elif inp == "2":
-                Search.search_book()
+                search_book(self.BookList)
             elif inp == "3":
-                book = AddBook()
-                AddBook.append(book)
+                AddBook(self.BookList)
             elif inp == "4":
-                DelBook
+                DeleteBook(self.BookList)
             elif inp == "5":
                 print("\n도서 찾기 서비스를 종료합니다.")
                 break
@@ -36,3 +34,7 @@ class Library:
         print("4. 도서 삭제하기")
         print("5. 종료하기")
         print("*" * 17)
+
+if __name__ == "__main__":
+    Library = Library()
+    Library.library_manual()

@@ -2,9 +2,9 @@ class AddBook:
     def __init__(self, BookList):
         super().__init__(BookList)
         self.BookList = []
-        self.addBook()
+        self.add_book()
 
-    def addBook(self):
+    def add_book(self):
         while True:
             info = input("추가할 도서명(저자)를 입력하세요(취소하려면 엔터): ")
             if info == "":
