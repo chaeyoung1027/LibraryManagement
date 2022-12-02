@@ -4,7 +4,7 @@ class AllBook:
         super().__init__(BookList)
         self.BookList = []
 
-    def __str__(self):
+    def __str__(self, BookList):
         if not self.BookList:
             return "도서 목록이 없습니다."
         else:
