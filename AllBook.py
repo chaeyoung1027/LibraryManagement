@@ -9,3 +9,4 @@ class AllBook:
         for index, book in self.BookList:
             print(f'책 제목 : {self.BookList.Title}, 책 저자 : {self.booklist.Author}')
             return str(self.BookList)
+
