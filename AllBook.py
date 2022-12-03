@@ -7,7 +7,7 @@ class AllBook:
     def __str__(self):
         if self.BookList:
             for i in range(len(self.BookList)):
-                print(f'{i+1}. {self.BookList[i]}')
+                print(f'{i+1}. {title} - {author}')
         else:
             print(f'도서 목록이 없습니다.')
 
