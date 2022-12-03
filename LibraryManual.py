@@ -22,7 +22,7 @@ class Library:
                 AddBook(self.BookList)
             elif inp == "4":
                 self.BookList = DeleteBook(self.BookList)
-            elif inp == "5" or inp == "":
+            elif inp == "5":
                 print(f'\n도서 찾기 서비스를 종료합니다.')
                 break
 

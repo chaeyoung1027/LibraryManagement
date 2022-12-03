@@ -6,6 +6,7 @@ class AllBook:
 
     def show_list(self):
         index = 0
+        print()
         if not self.BookList:
             print(f'도서 목록이 비어있습니다.')
         else:
