@@ -1,6 +1,7 @@
+
+
 class AddBook:
-    def __init__(self, BookList):
-        super().__init__(BookList)
+    def __init__(self):
         self.BookList = []
         self.add_book()
 
@@ -9,8 +10,12 @@ class AddBook:
             info = input("추가할 도서명(저자)를 입력하세요(취소하려면 엔터): ")
             if info == "":
                 break
-            print(f'<{info}> 도서를 추가하였습니다.')
-            self.BookList.append(info)
+            if info in self.BookList:
+                print(f'<{info}> 도서가 이미 있습니다.')
+            else:
+                self.BookList.append(info)
+                print(f'<{info}> 도서를 추가하였습니다.')
+
 
 
 

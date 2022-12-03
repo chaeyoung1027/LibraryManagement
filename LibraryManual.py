@@ -1,15 +1,15 @@
 # 도서를 관리하는 콘솔 프로그램
 # 도서 정보는 도서명, 저자로 구성
+import Search
 from AddBook import AddBook
 from AllBook import AllBook
 from DelBook import DeleteBook
-from Search import SearchBook
 
 
 class Library:
+    BookList = []
     def __init__(self):
-        self.BookList = []  # 책의 목록을 저장할 리스트
-
+        self.BookList = []
     def library_manual(self):
         while True:
             self.show_manual()
@@ -17,11 +17,11 @@ class Library:
             if inp == "1":
                 AllBook(self.BookList)
             elif inp == "2":
-                Search(self.BookList)
+                Search.search_book(self.BookList)
             elif inp == "3":
-                AddBook(self.BookList)
+                AddBook()
             elif inp == "4":
-                DeleteBook(self.BookList)
+                DeleteBook()
             elif inp == "5":
                 print("\n도서 찾기 서비스를 종료합니다.")
                 break
