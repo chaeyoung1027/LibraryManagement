@@ -21,13 +21,13 @@ class Library:
             elif inp == "3":
                 AddBook(self.BookList)
             elif inp == "4":
-                DeleteBook(self.BookList)
-            elif inp == "5":
+                self.BookList = DeleteBook(self.BookList)
+            elif inp == "5" or inp == "":
                 print(f'\n도서 찾기 서비스를 종료합니다.')
                 break
 
     def show_manual(self):
-        print(f'도서 관리 프로그램입니다.')
+        print(f'\n도서 관리 프로그램입니다.')
         print("*" * 17)
         print(f'1. 도서 목록 보기')
         print(f'2. 도서 검색하기')

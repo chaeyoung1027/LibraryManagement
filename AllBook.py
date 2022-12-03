@@ -2,12 +2,12 @@
 class AllBook:
     def __init__(self, book_list):
         self.BookList = book_list
-        self.BookList = []
+        self.__str__()
 
     def __str__(self):
-        if not self.BookList:
-            return f'도서 목록이 없습니다.'
+        if self.BookList:
+            for i in range(len(self.BookList)):
+                print(f'{i+1}. {self.BookList[i]}')
         else:
-            for i in self.BookList:
-                return self.BookList[i]
+            print(f'도서 목록이 없습니다.')
 
