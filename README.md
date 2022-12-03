@@ -29,6 +29,7 @@
 * __main__, __init__, __str__
 * 시퀀스 형 - list
 * 논리연산 - not
+* keyword
 
 
 ## 추가할 것
