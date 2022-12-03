@@ -1,6 +1,5 @@
 class DeleteBook:
-    def __init__(self, BookList):
-        super().__init__(BookList)
+    def __init__(self):
         self.BookList = []
         self.delete_book()
 
@@ -9,5 +8,8 @@ class DeleteBook:
             info = input("삭제할 도서명(저자)를 입력하세요(취소하려면 엔터): ")
             if info == "":
                 break
-            print(f'<{info}> 도서를 삭제하였습니다.')
-            self.BookList.append(info)
+            if info in self.BookList:
+                self.BookList.remove(info)
+                print(f'<{info}> 도서를 삭제하였습니다.')
+            else:
+                print(f'<{info}> 도서가 없습니다.')

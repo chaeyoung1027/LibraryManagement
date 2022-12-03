@@ -3,13 +3,12 @@
 from AddBook import AddBook
 from AllBook import AllBook
 from DelBook import DeleteBook
-from Search import search_book
+from Search import SearchBook
 
 
 class Library:
     def __init__(self):
         self.BookList = []  # 책의 목록을 저장할 리스트
-
 
     def library_manual(self):
         while True:
