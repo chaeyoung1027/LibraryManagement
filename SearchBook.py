@@ -5,7 +5,7 @@ class SearchBook:
         self.search()
 
     def search(self):
-        word_book = []
+        word_book = [] #검색한 단어가 들어있는 책을 저장할 리스트
         print(len(self.BookList))
         info = input("검색할 도서명(저자)을 입력하세요: ")
         for i in self.BookList:

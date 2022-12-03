@@ -5,13 +5,13 @@ class AllBook:
         self.show_list()
 
     def show_list(self):
-        index = 1
+        index = 0
         if not self.BookList:
             print(f'도서 목록이 비어있습니다.')
         else:
             for i in self.BookList:
-                print(f'{index}. {i}')
-                cnt += 1
-        print(f'총 {cnt}권의 도서가 있습니다.')
+                print(f'{index+1}. {i}')
+                index += 1
+            print(f'총 {index}권의 도서가 있습니다.')
 
 
