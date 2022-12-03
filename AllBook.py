@@ -1,13 +1,13 @@
 #모든 책을 조회하는 클래스
 class AllBook:
-    def __init__(self, BookList):
-        super().__init__(BookList)
+    def __init__(self, book_list):
+        self.BookList = book_list
         self.BookList = []
 
-    def __str__(self, BookList):
+    def __str__(self):
         if not self.BookList:
-            return "도서 목록이 없습니다."
+            return f'도서 목록이 없습니다.'
         else:
             for i in self.BookList:
-                print(self.BookList[i])
+                return self.BookList[i]
 
