@@ -2,12 +2,15 @@
 class AllBook:
     def __init__(self, book_list):
         self.BookList = book_list
-        self.__str__()
+        self.show_list()
 
-    def __str__(self):
-        if self.BookList:
-            for i in range(len(self.BookList)):
-                print(f'{i+1}. {title} - {author}')
+    def show_list(self):
+        cnt = 0
+        if not self.BookList:
+            print(f'도서 목록이 비어있습니다.')
         else:
-            print(f'도서 목록이 없습니다.')
+            for i in self.BookList:
+                print(f'{cnt+1}. {i}')
+                cnt += 1
+
 
