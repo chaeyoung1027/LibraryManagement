@@ -3,7 +3,7 @@
 from AddBook import AddBook
 from AllBook import AllBook
 from DelBook import DeleteBook
-from Search import SearchBook
+from Search import search_book
 
 
 class Library:
