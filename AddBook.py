@@ -5,14 +5,17 @@ class AddBook:
 
     def add_book(self):
         while True:
-            info = input(f'추가할 도서명(저자)를 입력하세요(취소하려면 엔터): ')
-            if info == "":
+            title = input(f'추가할 도서명을 입력하세요(취소하려면 엔터): ')
+            if title == "":
                 break
-            if info in self.BookList:
-                print(f'<{info}> 도서가 이미 있습니다.')
+            author = input(f'{title}의 저자를 입력하세요(취소하려면 엔터): ')
+            for t, a in self.BookList.items():
+                if t == title and a == author:
+                    print(f'이미 존재하는 도서입니다.')
+                    break
             else:
-                self.BookList.append(info)
-                print(f'<{info}> 도서를 추가하였습니다.')
+                self.BookList["title"] = author
+                print(f'<{title}> 도서를 추가하였습니다.')
 
 
 

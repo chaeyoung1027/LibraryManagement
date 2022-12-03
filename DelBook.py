@@ -5,11 +5,22 @@ class DeleteBook:
 
     def delete_book(self):
         while True:
-            info = input(f'삭제할 도서명(저자)를 입력하세요(취소하려면 엔터): ')
-            if info == "":
+            title = input(f'삭제할 도서명을 입력하세요(취소하려면 엔터): ')
+            if title == "":
                 break
-            if info in self.BookList:
-                self.BookList.remove(info)
-                print(f'<{info}> 도서를 삭제하였습니다.')
-            else:
-                print(f'<{info}> 도서가 없습니다.')
+            for t, a in self.BookList.items():
+                if t == title:
+                    print(f'<{t}> - <{a}> 도서를 찾았습니다.')
+            author = input(f'삭제할 {title} 도서의 저자를 입력하세요(취소하려면 엔터): ')
+            if author == "":
+                break
+            for t, a in self.BookList.items():
+                if t == title and a == author:
+                    print(f'<{t}> - <{a}> 도서를 삭제하였습니다.')
+                    del self.BookList[t]
+                    break
+                else:
+                    print(f'<{t}> - <{a}> 도서가 없습니다.')
+                    break
+
+

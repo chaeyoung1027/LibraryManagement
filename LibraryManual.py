@@ -8,7 +8,7 @@ from Search import SearchBook
 
 class Library:
     def __init__(self):
-        self.BookList = []  # 책의 목록을 저장할 리스트
+        self.BookList = {}  # 책 목록
 
     def library_manual(self):
         while True:
