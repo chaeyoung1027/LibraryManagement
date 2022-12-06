@@ -1,1 +1,1 @@
-# import PyMySQL import 불가능
+import pymysql
