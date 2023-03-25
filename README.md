@@ -1,7 +1,9 @@
 # 도서관 프로그램
+> ### Python을 활용한 도서관 프로그램
+>
+* 개발 기간 : 2022.12.02 ~ 2022.12.06
 
 ## 프로젝트 소개
-
 > 도서관 프로그램은 도서관의 도서 관리를 도와주는 프로그램입니다. </br>
 > 모든 책 목록을 볼 수 있고, 책을 검색할 수 있습니다. </br>
 > 또한 원하는 책을 추가하거나 삭제할 수 있습니다.
@@ -11,14 +13,14 @@
 <img src="https://img.shields.io/badge/PyCharm-000000?style=flat-square&logo=PyCharm&logoColor=white"/>
 
 ## 파일 및 기능
-* AllBook
+* `전체 도서 출력` : AllBook
   * 전체 도서를 출력한다.
-* SearchBook
+* `도서 검색` : SearchBook
   * 도서를 검색한다.
-* AddBook
+* `도서 추가` : AddBook
   * 도서를 추가한다.
-* DeleteBook
-  * 책을 삭제한다. 
+* `도서 삭제` : DeleteBook
+  * 도서를 삭제한다. 
 
 ## 실행 방법
 1. 프로그램을 실행한다.
