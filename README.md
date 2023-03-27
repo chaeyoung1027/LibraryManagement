@@ -27,6 +27,16 @@
 2. 원하는 기능을 선택한다.
 3. 원하는 기능을 사용한 후 프로그램을 종료한다.
 
+## 실행 화면
+![image](https://user-images.githubusercontent.com/83990991/227815719-bc5f8ac7-28e8-439c-9bbd-1e3ef6ec2fc7.png)</br>
+![image](https://user-images.githubusercontent.com/83990991/227815879-2612e5cb-b542-4152-b97f-5a1862048e2c.png)</br>
+![image](https://user-images.githubusercontent.com/83990991/227815937-027248dc-8887-491a-b323-6e67eb63572a.png)</br>
+![image](https://user-images.githubusercontent.com/83990991/227816254-74302860-0c4f-4b40-a36d-89bf8516d28b.png)</br>
+![image](https://user-images.githubusercontent.com/83990991/227816293-ded6b59e-be24-479d-a358-8622eeee939c.png)</br>
+![image](https://user-images.githubusercontent.com/83990991/227816368-e60ee891-8acb-4a76-b1d7-a90aa10d385d.png)
+
+
+
 ## 사용한 라이브러리
 * __main__, __init__, __str__
 * 시퀀스 형 - list
