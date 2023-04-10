@@ -30,27 +30,27 @@
 ## 실행 화면
 - ### 도서 목록 보기
   #### - 현재 리스트에 있는 도서 목록을 확인할 수 있습니다.
-![image](https://user-images.githubusercontent.com/83990991/227815719-bc5f8ac7-28e8-439c-9bbd-1e3ef6ec2fc7.png)</br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![image](https://user-images.githubusercontent.com/83990991/227815719-bc5f8ac7-28e8-439c-9bbd-1e3ef6ec2fc7.png)</br>
 
 - ### 도서 추가하기
   #### - 리스트에 추가하고 싶은 도서를 도서명(저자) 의 양식으로 작성 후 엔터를 누르면 추가됩니다. 다 추가한 뒤 엔터를 한 번 더 눌러 메인으로 돌아올 수 있습니다.
-![image](https://user-images.githubusercontent.com/83990991/227815879-2612e5cb-b542-4152-b97f-5a1862048e2c.png)</br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![image](https://user-images.githubusercontent.com/83990991/227815879-2612e5cb-b542-4152-b97f-5a1862048e2c.png)</br>
 
 - ### 도서 검색하기
   #### - 검색하고 싶은 내용을 입력 후 엔터를 누르면 그 단어가 들어있는 책을 출력합니다.
-![image](https://user-images.githubusercontent.com/83990991/227815937-027248dc-8887-491a-b323-6e67eb63572a.png)</br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;![image](https://user-images.githubusercontent.com/83990991/227815937-027248dc-8887-491a-b323-6e67eb63572a.png)</br>
 
 - ### 도서 추가 후 목록 보기
   #### - 도서를 추가한 후 다시 목록을 보면 들어있는 책의 이름,저자명과 갯수를 출력합니다.
-![image](https://user-images.githubusercontent.com/83990991/227816254-74302860-0c4f-4b40-a36d-89bf8516d28b.png)</br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;![image](https://user-images.githubusercontent.com/83990991/227816254-74302860-0c4f-4b40-a36d-89bf8516d28b.png)</br>
 
 - ### 도서 삭제하기
   #### - 식제하고싶은 도서를 도서명(저자)의 양식으로 작성하면 리스트에서 삭제됩니다.
-![image](https://user-images.githubusercontent.com/83990991/227816293-ded6b59e-be24-479d-a358-8622eeee939c.png)</br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;![image](https://user-images.githubusercontent.com/83990991/227816293-ded6b59e-be24-479d-a358-8622eeee939c.png)</br>
 
 - ### 종료하기
   #### - 리스트 정리 후 프로그램을 종료할 수 있습니다.
-![image](https://user-images.githubusercontent.com/83990991/227816368-e60ee891-8acb-4a76-b1d7-a90aa10d385d.png)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;![image](https://user-images.githubusercontent.com/83990991/227816368-e60ee891-8acb-4a76-b1d7-a90aa10d385d.png)
 
 
 
